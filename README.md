@@ -13,3 +13,15 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |MOSI|D11|
 |SCK|D13|
 |SDA|D10|
+
+## Server Scripts
+These scripts make use of `python`,`bash`, and `javascript`.
+
+For the python scripts you need to install the following:
+```
+pip install serial
+pip install flask
+pip install pyserial
+```
+`serial` & `pyserial` is to read the serial connection for the arudino
+`flask` is to run a backend api server that our javascript frontend will call via `jquery` ajax.
