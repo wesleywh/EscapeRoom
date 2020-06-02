@@ -24,6 +24,6 @@ pip install flask
 pip install pyserial
 pip install flask_cors
 ```
-`serial` & `pyserial` is to read the serial connection for the arudino
-`flask` is to run a backend api server that our javascript frontend will call via `jquery` ajax.
-`flask_cors` is to make this callable from different ip address so the javascript can be hosted anywhere and still call the backend python api server.
+`serial` & `pyserial` is to read the serial connection for the arudino<br/>
+`flask` is to run a backend api server that our javascript frontend will call via `jquery` ajax.<br/>
+`flask_cors` is to make this callable from different ip address so the javascript can be hosted anywhere and still call the backend python api server.<br/>
