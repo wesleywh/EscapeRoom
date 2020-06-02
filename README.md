@@ -22,6 +22,8 @@ For the python scripts you need to install the following:
 pip install serial
 pip install flask
 pip install pyserial
+pip install flask_cors
 ```
 `serial` & `pyserial` is to read the serial connection for the arudino
 `flask` is to run a backend api server that our javascript frontend will call via `jquery` ajax.
+`flask_cors` is to make this callable from different ip address so the javascript can be hosted anywhere and still call the backend python api server.
