@@ -14,6 +14,8 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |SCK|D13|
 |SDA|D10|
 
+This is required to use the `IDOnly.ino` file. This file is to be uploaded to the arduino.
+
 ## Server Scripts
 These scripts make use of `python`,`bash`, and `javascript`.
 
