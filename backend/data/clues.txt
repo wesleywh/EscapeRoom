@@ -1,0 +1,6 @@
+1. Have you looked at the books on the table closely?
+2. The second clue is now shown
+3. Lets have a look at the third clue
+4. The forth clue should be visible now
+5. Clue five is here
+FORCE. This is a forced clue!
