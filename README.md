@@ -2,13 +2,17 @@
 Just a lot of helpful scripts and hardware setup that I have been building for my own, just for fun, escape room.
 
 ## (Puzzle.ino) RC522 x4 w/ Arduino Nano
-|RC522 Pin|Arudino Nano Pin|
+### Shared Connections
+|RC522 (x4) Pin|Arudino Nano Pin|
 |----|----|
 |3.3V|3.3V|
 |RST|D8|
 |GND|GND|
 |MOSI|D11|
 |MISO|D12|
+|SCK|D13|
+
+### Individual Connections
 
 ## (IDOnly.ino) RC522 W/ Arduino Nano
 ### PIN SETUP
