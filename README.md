@@ -12,7 +12,23 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |MISO|D12|
 |SCK|D13|
 
-### Individual Connections
+### Individual Connections (Unique SDA Pin on RC522)
+
+|RC522 (1) | Arudino Nano |
+| -----| -----|
+|SDA|D3|
+
+|RC522 (2) | Arudino Nano |
+| -----| -----|
+|SDA|D4|
+
+|RC522 (3) | Arudino Nano |
+| -----| -----|
+|SDA|D5|
+
+|RC522 (4) | Arudino Nano |
+| -----| -----|
+|SDA|D6|
 
 ## (IDOnly.ino) RC522 W/ Arduino Nano
 ### PIN SETUP
