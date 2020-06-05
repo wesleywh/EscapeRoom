@@ -6,7 +6,7 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |RC522 (x4) Pin|Arudino Nano Pin|
 |----|----|
 |3.3V|3.3V|
-|RST|D8|
+|RST|D9|
 |GND|GND|
 |MISO|D12|
 |MOSI|D11|
