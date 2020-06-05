@@ -8,8 +8,8 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |3.3V|3.3V|
 |RST|D8|
 |GND|GND|
-|MOSI|D11|
 |MISO|D12|
+|MOSI|D11|
 |SCK|D13|
 
 ### Individual Connections (Unique SDA Pin on RC522)
