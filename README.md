@@ -3,7 +3,7 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 
 ------------------------------------------------------------
 
-## (Puzzle.ino) RC522 x4 w/ Arduino Nano
+## (4SequencePuzzle.ino) RC522 x4 w/ Arduino Nano
 This is a puzzel that will require the user to place 4 RFID tags/chips into the right RFID slot. If they do that correctly a number will display on the LCD screen.
 
 ### Shared Connections
