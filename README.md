@@ -44,6 +44,8 @@ For this code to work you need the following 2 libraries:
 |----|-----|
 |VSS|GND|
 |VDD|5V|
+|RS|D12|
+|E|D11|
 
 -------------------------------------------------------------
 
