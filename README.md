@@ -14,7 +14,7 @@ For this code to work you need the following 2 libraries:
 |RC522 (x4) Pin|Arudino Uno Pin|
 |----|----|
 |3.3V|3.3V|
-|RST|D9|
+|RST|D10|
 |GND|GND|
 |MISO|D12|
 |MOSI|D11|
@@ -24,19 +24,19 @@ For this code to work you need the following 2 libraries:
 
 |RC522 (1) | Arudino Uno |
 | -----| -----|
-|SDA|D3|
+|SDA|D6|
 
 |RC522 (2) | Arudino Uno |
 | -----| -----|
-|SDA|D4|
+|SDA|D7|
 
 |RC522 (3) | Arudino Uno |
 | -----| -----|
-|SDA|D5|
+|SDA|D8|
 
 |RC522 (4) | Arudino Uno |
 | -----| -----|
-|SDA|D6|
+|SDA|D9|
 
 
 ## LCD1602 w/ Arudino
