@@ -51,6 +51,8 @@ For this code to work you need the following 2 libraries:
 |D5|D4|
 |D6|D3|
 |D7|D2|
+|A|5V|
+|K|GND|
 
 -------------------------------------------------------------
 
