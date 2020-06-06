@@ -1,7 +1,11 @@
 # EscapeRoom
 Just a lot of helpful scripts and hardware setup that I have been building for my own, just for fun, escape room.
 
+------------------------------------------------------------
+
 ## (Puzzle.ino) RC522 x4 w/ Arduino Nano
+This is a puzzel that will require the user to place 4 RFID tags/chips into the right RFID slot. If they do that correctly a number will display on the LCD screen.
+
 ### Shared Connections
 |RC522 (x4) Pin|Arudino Uno Pin|
 |----|----|
@@ -37,7 +41,11 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 |VSS|GND|
 |VDD|5V|
 
+-------------------------------------------------------------
+
 ## (IDOnly.ino) RC522 W/ Arduino Nano
+This is used a slot reader in combination with a server. This will read the rfid and send it to the computer via USB which will then store it and be used to update a progress bar. It will help the user to know how far along the puzzel they are.
+
 ### PIN SETUP
 
 |RC522 Pin|Arudino Nano Pin|
