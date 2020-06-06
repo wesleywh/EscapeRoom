@@ -4,7 +4,7 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 ------------------------------------------------------------
 
 ## (4SequencePuzzle.ino) RC522 x4 w/ Arduino Nano
-This is a puzzel that will require the user to place 4 RFID tags/chips into the right RFID slot. If they do that correctly a number will display on the LCD screen.
+This is a puzzel that will require the user to place 4 RFID tags/chips into the right RFID slot. If they do that correctly it will spin a servo motor which will unlock the box.
 
 For this code to work you need the following 2 libraries:
 * Liquid Crystal
@@ -39,21 +39,12 @@ For this code to work you need the following 2 libraries:
 |SDA|D9|
 
 
-## LCD1602 w/ Arudino
-|LCD1602| Arudino Uno|
-|----|-----|
-|VSS|GND|
-|VDD|5V|
-|VO|GND|
-|RS|D12|
-|RW|GND|
-|E|D11|
-|D4|D5|
-|D5|D4|
-|D6|D3|
-|D7|D2|
-|A|5V|
-|K|GND|
+## Servo Motor SG90 1PC
+|Servo|Arduino|
+|-------|------|
+|Red|5V|
+|Orange|D5|
+|Brown|GND|
 
 -------------------------------------------------------------
 
@@ -87,3 +78,21 @@ pip install flask_cors
 `serial` & `pyserial` is to read the serial connection for the arudino<br/>
 `flask` is to run a backend api server that our javascript frontend will call via `jquery` ajax.<br/>
 `flask_cors` is to make this callable from different ip address so the javascript can be hosted anywhere and still call the backend python api server.<br/>
+
+------------------------
+# Just some notes:
+## LCD1602 w/ Arudino
+|LCD1602| Arudino Uno|
+|----|-----|
+|VSS|GND|
+|VDD|5V|
+|VO|GND|
+|RS|D12|
+|RW|GND|
+|E|D11|
+|D4|D5|
+|D5|D4|
+|D6|D3|
+|D7|D2|
+|A|5V|
+|K|GND|
