@@ -45,7 +45,12 @@ For this code to work you need the following 2 libraries:
 |VSS|GND|
 |VDD|5V|
 |RS|D12|
+|RW|GND|
 |E|D11|
+|D4||D5|
+|D5|D4|
+|D6|D3|
+|D7|D2|
 
 -------------------------------------------------------------
 
