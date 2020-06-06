@@ -3,7 +3,7 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 
 ## (Puzzle.ino) RC522 x4 w/ Arduino Nano
 ### Shared Connections
-|RC522 (x4) Pin|Arudino Nano Pin|
+|RC522 (x4) Pin|Arudino Uno Pin|
 |----|----|
 |3.3V|3.3V|
 |RST|D9|
@@ -14,21 +14,28 @@ Just a lot of helpful scripts and hardware setup that I have been building for m
 
 ### Individual Connections (Unique SDA Pin on RC522)
 
-|RC522 (1) | Arudino Nano |
+|RC522 (1) | Arudino Uno |
 | -----| -----|
 |SDA|D3|
 
-|RC522 (2) | Arudino Nano |
+|RC522 (2) | Arudino Uno |
 | -----| -----|
 |SDA|D4|
 
-|RC522 (3) | Arudino Nano |
+|RC522 (3) | Arudino Uno |
 | -----| -----|
 |SDA|D5|
 
-|RC522 (4) | Arudino Nano |
+|RC522 (4) | Arudino Uno |
 | -----| -----|
 |SDA|D6|
+
+
+## LCD1602 w/ Arudino
+|LCD1602| Arudino Uno|
+|----|-----|
+|VSS|GND|
+|VDD|5V|
 
 ## (IDOnly.ino) RC522 W/ Arduino Nano
 ### PIN SETUP
