@@ -43,7 +43,7 @@ For this code to work you need the following 2 libraries:
 |Servo|Arduino|
 |-------|------|
 |Red|5V|
-|Orange|D5|
+|Orange|D2|
 |Brown|GND|
 
 -------------------------------------------------------------
