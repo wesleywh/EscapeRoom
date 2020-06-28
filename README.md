@@ -96,3 +96,18 @@ pip install flask_cors
 |D7|D2|
 |A|5V|
 |K|GND|
+
+## Programming ESP8266 w/ Arduino
+### Arudino Setup
+Connect RST -> GND (Makes it a passthrough)
+
+|ESP8266|Arduino Nano|
+|----|----|
+|GND|GND|
+|VCC|3.3V|
+|URXD|RXD|
+|UTXD|TX1|
+|REST|-|
+|CH_PD|<CONNECT TO VCC Of ESP8266>|
+|GPIO2|-|
+|GPIO0|<CONNECT TO GND OF ESP8266>|
